@@ -1,0 +1,15 @@
+
+PopulationSize	100
+GenomeLength 	32
+MutationRate	0.01
+EliteRatio	0.01
+GenomeType GAD.IntGenome
+Problem		GAD.HIFFProblem
+SearchAlgorithm GAD.GA
+CrossoverProbability	0.6
+RankDecay	0.9
+SectionLength	3
+MaxIterations	1000
+OutputType	FitnessTime
+HaltingFitness	1.1
+SearchModel	GAD.GeneSetModel
